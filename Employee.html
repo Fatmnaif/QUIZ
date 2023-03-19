@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<title> Employees </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<header> 
+	<img id="img" src="store_icon.png"/>
+<ul id="Unordered">
+<li > 
+	<a class="link1" href="Home.php" style="color:white;"> HOME </a>
+	 </li>
+<li> 
+	<a id="link2" href="Employee.html" style="color:white;"> EMPLOYEES</a> </li>
+	<li> 
+	<a id="link2" href="Store.html" style="color:white;"> STORES</a> </li>
+</ul>
+</header>
+<br/>
+<br/>
+
+<br/>
+<br/>
+
+
+<a id="add_employee" href="Employee.html"> Add Employee  </a>
+<a id="a_employee" href="Employee_list.php"> Update Employee  </a>
+<a id="a_employee" href="Delete-employee.php"> Delete Employee  </a>
+
+
+<form id="fields" method="post" action="Employee.php">
+ 	<h1> Register an Employee </h1>
+ 	<label>Name</label>
+ 	<input type="text" name="Name"><br/>
+ 	<label>Age</label>
+ 	<input type="number" name="Age"><br>
+    <label>Store ID</label>
+ 	<input type="text" name="store_id"><br/>
+ 	<label>Skill of the employee</label>
+ 	 <select style="height: 25px;" name="skills">
+ 	 	<option name="skill1">inventory specialist</option>
+ 	 	<option name="skill2">sales agent</option>
+ 	 </select>
+  <br/>
+ 	<br/>
+
+    
+   
+    <input id ="submit_info" type="submit"  name="save" value="Done">  </input>
+
+ </form>
+ <br>
+ <br>
+
+</body>
+</html>

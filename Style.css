@@ -1,0 +1,258 @@
+header{
+background-color:darkcyan;
+color:white;padding:10;
+margin:10;
+text-align:left;
+padding: 10px; 
+}
+#img{
+	width:40px;
+	hieght:40px;
+	position: relative;
+	left:90%;
+}
+h3{
+	color: white;
+}
+#Unordered{
+     
+	display: inline;
+	 margin: 20px;
+	 padding: 19px;
+	 position: relative;
+	 bottom:12px;
+}
+li{
+	text-decoration: none;
+	display: inline;
+	 margin: 25px; 
+	 color:white;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #78C7C7;
+
+}
+.link1:hover{
+	color: #78C7C7;
+}
+#link2:hover{
+	color: #78C7C7;
+}
+section{
+align-content: center;	
+text-align: center;
+}
+.Employees {
+	margin: 90px;
+  height: 90px;
+  width: 90px;
+  background-color: #78C7C7;
+  border-radius: 50%;
+  display: inline-block;
+}
+.Stores {
+	margin: 90px;
+  height: 90px;
+  width: 90px;
+  background-color: #78C7C7;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.c1{
+	  display: inline-block;
+background-color: #78C7C7;
+width: 30%;
+box-shadow: 0 7px 20px rgba(1, 1, 1, 0.15);
+border-radius: 10px;
+padding: 20px;
+margin: 20px ;
+transition: 0.5s ease;
+}
+.c1:hover{
+transform: scale(1.1);
+}
+.icons{
+
+	color: blanchedalmond;
+	font-size: 40px;
+	font-weight: 30px;
+	margin: 10px;
+	text-align: center;
+}
+#Search{
+   width: 20%;
+   height: 20px;
+  border: 1.5px solid #78C7C7;
+  border-radius: 5px;
+}
+#fields{
+border-radius: 5px;
+display: flex;
+flex-flow: column wrap;
+margin-left:auto; 
+margin-right:auto;
+margin-top: 30px;
+padding:10%;
+position:relative;
+width:400px;
+height:auto;
+border-bottom-style:solid ;
+border-bottom-width:10px;
+border-bottom-color: #95B9C7 ;
+border-left-style:solid ;
+border-left-width:10px;
+border-left-color: #9999 ;
+background-color:#78C7C7;
+color:black;
+font-size: 18px;
+}
+
+#INFO{
+border-radius: 5px;
+display: flex;
+flex-flow: column wrap;
+margin-left:auto; 
+margin-right:auto;
+margin-top: 30px;
+padding:10%;
+position:relative;
+width:400px;
+height:auto;
+border-bottom-style:solid ;
+border-bottom-width:10px;
+border-bottom-color: #95B9C7 ;
+border-left-style:solid ;
+border-left-width:10px;
+border-left-color: #9999 ;
+background-color:#78C7C7;
+color:white;
+font-size: 30px;
+}
+table{
+	border-radius: 13px;
+	border: 1px solid white;
+	color:#566D7E ;
+	padding: 3px;
+
+}
+td{
+	padding: 5px;
+}
+input{
+	 border-radius: 10px;
+	 height: 20px;
+}
+select{
+	 border-radius: 10px;
+	 height: 22px;
+	 color:#566D7E;
+	 border: 2px solid black;
+
+}
+#submit_info{
+	 border-radius: 10px;
+	 background-color: white;
+	 color:#566D7E;
+	 font-size: 20px;
+	 height: 30px;
+	 border-color: white;
+	 text-align: center;
+}
+#delete_butt{
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 20px;
+	color: #566D7E;
+}
+#add_store:hover{
+	background-color: #92C7C7;
+}
+#add_store{
+		margin-top: 10px;
+	position: relative;
+	left: 23.57%;
+padding: 40px;
+padding-right: 14.5%;
+font-size: 20px;
+color: white;
+border-top-right-radius: 30px;
+background-color: #78C7C7;
+border-left-style:solid ;
+border-left-width:10px;
+border-left-color: #9999 ;
+border-radius: 7px;
+}
+#a_store:hover{
+	background-color: #92C7C7;
+}
+#a_store{
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+	left: 23.57%;
+padding: 40px;
+border-radius: 7px;
+	border-top-right-radius: 30px;
+padding-right: 14.3%;
+font-size: 20px;
+color: white;
+width: 28px;
+background-color: #78C7C7;
+border-left-style:solid ;
+border-left-width:1px;
+border-left-color: #9999 ;
+}
+#a_employee:hover{
+	background-color: #92C7C7;
+}
+#add_employee:hover{
+	background-color: #92C7C7;
+
+}
+#add_employee{
+margin-top: 10px;
+text-align: center;
+position: relative;
+left: 23.57%;
+padding: 40px;
+border-radius: 7px;
+border-top-right-radius: 30px;
+padding-right: 40px;
+font-size: 20px;
+color: white;
+width: 28px;
+background-color: #78C7C7;
+border-left-style:solid ;
+border-left-width:9px;
+border-left-color: #9999 ;
+}
+#a_employee{
+margin-top: 10px;
+text-align: center;
+position: relative;
+left: 23.57%;
+padding: 40px;
+border-radius: 7px;
+	border-top-right-radius: 30px;
+padding-right: 39px;
+font-size: 20px;
+color: white;
+width: 28px;
+background-color: #78C7C7;
+border-left-style:solid ;
+border-left-width:1px;
+border-left-color: #9999 ;
+
+}
+.Searched_bar{
+display: flex;
+flex-flow: column wrap;
+margin-left:auto; 
+margin-right:auto;
+padding:3%;
+position:relative;
+}

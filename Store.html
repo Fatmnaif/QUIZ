@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<title> Store </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<header> 
+	<img id="img" src="store_icon.png"/>
+<ul id="Unordered">
+<li> 
+	<a class="link1" href="Home.php" style="color:white;"> HOME </a>
+	 </li>
+<li> 
+	<a id="link2" href="Employee.html" style="color:white;"> EMPLOYEES</a> </li>
+	<li> 
+	<a id="link2" href="Employees.html" style="color:white;"> STORES</a> </li>
+</ul>
+</header>
+<br/>
+<br/>
+<br/>
+<br/>
+<a id="add_store" href="Store.html" style="border-top-right-radius: 30px;"> Create Store  </a>
+<a id="a_store" href="Store_list.php" style="border-top-right-radius: 38px;"> Update Store  </a>
+
+<form id="fields" method="post" action="Store.php" name="add_store" onsubmit="return Check()">
+ 	<h1 style="text-align: center;"> Register a Store </h1>
+ 	<label>Name</label>
+ 	<input type="text" name="Name"><br/>
+ 	<label>Address</label>
+ 	<input type="text" name="Address"><br>
+    <label>Type of store</label>
+ 	<input type="text" name="store_type"><br/>
+  <br/>
+ 	<br/>
+
+   
+    <input id ="submit_info" type="submit"  name="save" value="Done" >  </input>
+
+ </form>
+ <br>
+ <br>
+
+ <script>
+ 	function Check(){
+  let x = document.forms["add_store"]["Name"].value;
+    let Address = document.forms["add_store"]["Address"].value;
+  let store_type = document.forms["add_store"]["store_type"].value;
+
+    if(x =="" && Address=="" &&s tore_type ==""){
+        alert("Complete all the fields");
+
+      }
+    
+}
+ </script>
+
+</body>
+</html>
